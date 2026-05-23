@@ -1,1 +1,14 @@
-
+{
+  "crons": [
+    {
+      "path": "/api/speedtest",
+      "schedule": "0 * * * *"
+    }
+  ],
+  "functions": {
+    "api/speedtest.go": {
+      "runtime": "go",
+      "memory": 1024
+    }
+  }
+}
